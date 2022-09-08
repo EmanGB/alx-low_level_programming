@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * Description: 'printing to the stdout using puts function '
+ * description: 'printing to the stdout using puts function '
  * Return: Always 0 (Success)
  */
 
