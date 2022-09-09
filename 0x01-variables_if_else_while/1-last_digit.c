@@ -5,20 +5,9 @@
 #include <time.h>
 
 /**
- *
- *  * main - entry pont
- *
- *   *
- *
- *    *
- *
- *     *
- *
- *      * Return: always 0
- *
- *       *
- *
- *        */
+ * main - last digit
+ * Return: 0
+ */
 
 int main(void)
 
