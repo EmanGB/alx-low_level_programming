@@ -1,6 +1,13 @@
 #include <studio.h>
 
-in main(void)
+/*
+ * main-entry point
+ *
+ * Return(0) succes
+ *
+ */
+
+int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
 
