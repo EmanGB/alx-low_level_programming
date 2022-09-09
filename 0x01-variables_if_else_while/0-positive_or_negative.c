@@ -12,7 +12,6 @@
  * Return-0
  */
 
-/* betty style doc for function main goes there */
 
 int main(void)
 
@@ -38,7 +37,7 @@ int main(void)
 				}
 				else if (0 == 0)
 				{
-					printf("%i is zero\n", n);
+					prinf("%i is zero\n", n);
 				}
 
 				return (0);
