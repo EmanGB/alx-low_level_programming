@@ -9,7 +9,7 @@
 /**
  * main-find a positive and negative number
  *
- * Return-0
+ * Return: 0
  */
 
 
