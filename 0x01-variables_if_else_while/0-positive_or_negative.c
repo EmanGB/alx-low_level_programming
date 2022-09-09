@@ -37,7 +37,7 @@ int main(void)
 				}
 				else if (0 == 0)
 				{
-					prinf("%i is zero\n", n);
+					printf("%i is zero\n", n);
 				}
 
 				return (0);
