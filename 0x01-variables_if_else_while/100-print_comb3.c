@@ -5,7 +5,7 @@
 /**
  * main - Prints the all combinations of single numbers.
  *
- * * Return: 0
+ * Return: 0
  */
 
 
