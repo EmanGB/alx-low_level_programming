@@ -1,9 +1,14 @@
-#include<stdio.h>
+#include <stdio.h>
+
+
 
 /**
- * main -  run it
- * Return: 0
- */
+ *
+ * * main - Prints the alphabet in lower case.
+ *
+ * * Return: 0
+ *
+ * */
 
 
 
@@ -11,20 +16,22 @@ int main(void)
 
 {
 
+	char letra;
 
 
-	char n;
 
-	for (n = 'a'; n <= 'z'; n++)
+	for (letra = 'a' ; letra <= 'z' ; letra++)
 
 	{
 
-			putchar(n);
+		putchar(letra);
 
 	}
 
-	putchar('\n');
+	putchar(10);
 
 	return (0);
 
 }
+
+
