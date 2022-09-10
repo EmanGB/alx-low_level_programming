@@ -3,12 +3,9 @@
 
 
 /**
- *
- * * main - Prints the alphabet in lower case.
- *
- * * Return: 0
- *
- * */
+ * main - Prints the alphabet in lower case.
+ * Return: 0
+ */
 
 
 
