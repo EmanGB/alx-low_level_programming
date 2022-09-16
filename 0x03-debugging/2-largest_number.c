@@ -1,45 +1,53 @@
-nclude <stdio.h>
+#include "main.h"
 
 
 
 /**
- * main - causes an infinite loop
+ * largest_number - returns the largest of 3 numbers
  *
- * Return: 0
+ * @a: first integer
+ *
+ * @b: second integer
+ *
+ * @c: third integer
+ *
+ * Return: largest number
  */
 
 
 
-int main(void)
+int largest_number(int a, int b, int c)
 
 {
 
-		int i;
+		int largest;
 
 
 
-			printf("Infinite loop incoming :(\n");
+			if (a >= b && a > c)
 
+					{
 
+								largest = a;
 
-				i = 0;
+									}
 
+				else if (b >= a && b > c)
 
+						{
 
-					/*while (i < 10)*/
+									largest = b;
 
-					/*{*/
+										}
 
-					/*	putchar(i);*/
+					else
 
-					/*}*/
+							{
 
+										largest = c;
 
+											}
 
-					printf("Infinite loop avoided! \\o/\n");
-
-
-
-						return (0);
+						return (largest);
 
 }
