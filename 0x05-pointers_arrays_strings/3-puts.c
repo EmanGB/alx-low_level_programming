@@ -3,10 +3,16 @@
 
 
 /**
- *_puts - Prints a string followed by a new line
  *
- * @str:  String value
- */
+ *  *_puts - Prints a string followed by a new line
+ *
+ *   *
+ *
+ *    * @str:  String value
+ *
+ *     *
+ *
+ *      */
 
 
 
