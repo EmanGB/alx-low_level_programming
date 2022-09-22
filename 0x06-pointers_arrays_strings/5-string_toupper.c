@@ -1,49 +1,35 @@
-nclude "main.h"
+#include "main.h"
 
 
 
 /**
+ * string_toupper - check the code.
  *
- *  * string_toupper -  converts string to upper case
+ * @s: an input string.
  *
- *   *
- *
- *    * @p: pointer
- *
- *     *
- *
- *      * Return: Pointer value
- *
- *       *
- *
- *        */
+ * Return: char pointer to converted string.
+ */
 
-
-
-char *string_toupper(char *p)
+char *string_toupper(char *s)
 
 {
 
-		int i;
+		char *c = s;
 
 
 
-			for (i = 0; p[i] != '\0'; i++)
+			while (*s)
 
 					{
 
-								if (p[i] >= 97 && p[i] <= 122)
+								if (*s >= 'a' && *s <= 'z')
 
-											{
+												*s -= 32;
 
-															p[i] = p[i] - 32;
+										s++;
 
-																	}
+											}
 
-									}
-
-
-
-				return (p);
+				return (c);
 
 }
